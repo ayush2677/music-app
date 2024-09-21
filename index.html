@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamendo Music Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jamendo Music Explorer</h1>
+    </header>
+    <main>
+        <section id="search">
+            <input type="text" id="searchInput" placeholder="Search for a song or artist">
+            <button id="searchButton">Search</button>
+        </section>
+        <div id="loading" class="hidden">Searching...</div>
+        <section id="results">
+            <!-- Music results will be displayed here -->
+        </section>
+        <div id="error" class="hidden"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jamendo Music Explorer</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
